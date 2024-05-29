@@ -1144,3 +1144,76 @@ here keys and vaues are string
 Properties(C)
 java.util
 
+-----------------------------------------------
+
+HashMap(C) --> Map(I) 
+
+Key value pairs 
+
+here key can be of any DataType (int , Integer , String , Student , etc ..)
+value can also be of any DataType (int , Integer , String , Student , etc ..)
+
+
+Map(I)- java.util
+
+	Entry<K, V>(I)
+	
+	Methods in Map(I):
+	
+	entrySet():Set<Entry<K, V>>
+	put(K,V):V
+	size():int ==> no of entries 
+	isEmpty():boolean 
+	
+	
+	methods in Entry (I):
+	
+	getKey():K
+	getValue():V 
+	
+	setValue(V):V 
+	
+	HashMap(C) implements Map(I)
+	
+	HashMap()
+	HashMap(int)
+	HashMap(int, float)
+	HashMap(Map<? extends K, ? extends V>)
+	
+	=============================================================
+	
+Project 1 :
+	
+https://adactinhotelapp.com/
+	
+Data Driven Framework
+	
+For developers :
+
+src/main/java   ==> app code
+				==> java stuf (.java files like classes , interfaces ,enums etc ..)
+src/main/resources  ==> app resources 
+					==> non-java stuf ( .txt,.xlsx,.json,.csv,.proerties etc ..)
+src/test/java   ==> junit test cases 
+				==> java stuf (.java files like classes , interfaces ,enums etc ..)
+src/test/resources ==> test data for junit cases 
+					==non-java stuf ( .txt,.xlsx,.json,.csv,.proerties etc ..)
+					
+For Testers :					
+					
+
+src/main/java   ==> Framework code
+				==> java stuf (.java files like classes , interfaces ,enums etc ..)
+src/main/resources  ==> Framework resources 
+					==> non-java stuf ( .txt,.xlsx,.json,.csv,.proerties etc ..)
+src/test/java   ==> Framework code 
+				==> java stuf (.java files like classes , interfaces ,enums etc ..)
+src/test/resources ==> Framework resources
+					==non-java stuf ( .txt,.xlsx,.json,.csv,.proerties etc ..)	
+
+
+For Data Driven we are going to use concept of 
+
+DataProvider from TestNG 
+
+					
