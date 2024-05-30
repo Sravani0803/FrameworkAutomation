@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-29T21:32:15 IST" name="Default suite" finished-at="2024-05-29T21:32:26 IST" duration-ms="11551">
+  <suite started-at="2024-05-30T21:35:40 IST" name="Default suite" finished-at="2024-05-30T21:35:49 IST" duration-ms="8146">
     <groups>
     </groups>
-    <test started-at="2024-05-29T21:32:15 IST" name="Default test" finished-at="2024-05-29T21:32:26 IST" duration-ms="11551">
-      <class name="regression.ValidateLoginUsingDataProviderExcel">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:regression.ValidateLoginUsingDataProviderExcel@3a7442c7]" started-at="2024-05-29T21:32:16 IST" name="setUp" finished-at="2024-05-29T21:32:22 IST" duration-ms="5734" status="PASS">
+    <test started-at="2024-05-30T21:35:40 IST" name="Default test" finished-at="2024-05-30T21:35:49 IST" duration-ms="8146">
+      <class name="regression.ValidateLoginUsingKeywordsExcel">
+        <test-method is-config="true" signature="fileSetUp()[pri:0, instance:regression.ValidateLoginUsingKeywordsExcel@710c2b53]" started-at="2024-05-30T21:35:40 IST" name="fileSetUp" finished-at="2024-05-30T21:35:40 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLogin(java.util.HashMap)[pri:0, instance:regression.ValidateLoginUsingDataProviderExcel@3a7442c7]" started-at="2024-05-29T21:32:22 IST" name="validateLogin" data-provider="getData" finished-at="2024-05-29T21:32:23 IST" duration-ms="1022" status="PASS">
+        </test-method> <!-- fileSetUp -->
+        <test-method signature="validateLoginTest(java.util.HashMap)[pri:0, instance:regression.ValidateLoginUsingKeywordsExcel@710c2b53]" started-at="2024-05-30T21:35:42 IST" name="validateLoginTest" data-provider="getData" finished-at="2024-05-30T21:35:48 IST" duration-ms="6496" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,12 +21,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:regression.ValidateLoginUsingDataProviderExcel@3a7442c7]" started-at="2024-05-29T21:32:23 IST" name="teardown" finished-at="2024-05-29T21:32:26 IST" duration-ms="3448" status="PASS">
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:regression.ValidateLoginUsingKeywordsExcel@710c2b53]" started-at="2024-05-30T21:35:48 IST" name="teardown" finished-at="2024-05-30T21:35:49 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- regression.ValidateLoginUsingDataProviderExcel -->
+      </class> <!-- regression.ValidateLoginUsingKeywordsExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

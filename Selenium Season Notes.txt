@@ -1216,4 +1216,55 @@ For Data Driven we are going to use concept of
 
 DataProvider from TestNG 
 
-					
+----------------------------------------
+
+Keyword Driven Framework
+
+here Keywords are nothing but the steps in Test Cases
+
+in this approach , we will define methods for each step and method name will be a keyword 
+
+for e.g 
+
+Step 1: start the chrome browser 
+
+in KDF  , we will define a method for above step by some name 
+ let's say name is startBrowser here name/keyword  should follow camelCase 
+
+Keywords can be classified into  3 types 
+
+GenericKeywords
+
+ValidationKeywords
+
+ApplicationKeywords
+
+
+@BeforTest   ==> this annotated method will be executed only once before all the class in test tag of testng.xml
+@BeforeClass
+@BeforeMethod ==> this annotated method will be executed before each and evert @Test 
+@Test
+@AfterMethod
+@AfterTest
+
+TestNG Hiererchy :
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="may30th.ValidateLogin"/>
+      <class name="may30th.ValidateRegistration"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+@BeforTest  -> 1
+@BeforeClass -> 2
+@BeforeMethod -> 4
+@Test -> 4
+@AfterMethod -> 4
+@AfterClass -> 2
+@AfterTest  -> 1
+
+
+				
